@@ -42,6 +42,12 @@ next-env.d.ts
 *.mkv
 *.webm
 
+# Images - allow specific images
+!public/man.png
+!public/backend.png
+!public/girl.jpeg
+!public/Aanchal.jpg
+
 # Images
 *.png
 *.jpg

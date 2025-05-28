@@ -184,23 +184,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Video Section */}
-      <section className="py-16 bg-white dark:bg-gray-800">
-        <div className="container relative z-10">
-          <h2 className="text-3xl font-bold mb-8 text-blue-700 text-center">Watch Our Latest Video</h2>
-          <div className="aspect-w-16 aspect-h-9 max-w-4xl mx-auto">
-            <video 
-              controls 
-              className="w-full h-full rounded-lg shadow-xl"
-              title="Tutorial Video"
-            >
-              <source src="/video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials Section */}
       <TestimonialsSlider />
 
